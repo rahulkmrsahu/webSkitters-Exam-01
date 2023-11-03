@@ -29,10 +29,10 @@
 
 //10."llllllllllllui"print only ui
 
-// let str = "llllllllllllui"
+let str = "llllllllllllui"
 
-// let newStr = str.split('').slice(12, 14)
-// console.log(newStr)
+let newStr = str.slice(12, 14)
+console.log(newStr)
 
 //11)[1,2,3,4, 5, 6, 7, 8, 89] delete 8 using splice
 
@@ -222,19 +222,19 @@
 
 //4)Handling case-insensitive filtering:
 
-let str = "Rahul"
+// let str = "Rahul"
 
-let obj = ["rahul", "Rahul", "rAhul", "rAHUL"]
+// let obj = ["rahul", "Rahul", "rAhul", "rAHUL"]
 
 
 
-let newStr = obj.filter(function myFunction(e) {
-    let value = e === str
-    return value
+// let newStr = obj.filter(function myFunction(e) {
+//     let value = e === str
+//     return value
 
-})
+// })
 
-console.log(newStr)
+// console.log(newStr)
 
 
 
