@@ -226,9 +226,18 @@ let str = "Rahul"
 
 let obj = ["rahul", "Rahul", "rAhul", "rAHUL"]
 
-let newStr = obj.filter(item => item === obj)
+
+
+let newStr = obj.filter(function myFunction(e) {
+    let value = e === str
+    return value
+
+})
 
 console.log(newStr)
+
+
+
 
 
 
